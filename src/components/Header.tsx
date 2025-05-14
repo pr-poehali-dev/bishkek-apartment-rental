@@ -1,6 +1,5 @@
-
-import React from 'react';
-import Icon from '@/components/ui/icon';
+import React from "react";
+import Icon from "@/components/ui/icon";
 
 const Header: React.FC = () => {
   return (
@@ -9,12 +8,12 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Home" size={28} className="text-primary-600" />
-            <h1 className="text-xl font-bold text-primary-600">
-              БишкекАренда
-            </h1>
+            <h1 className="text-xl font-bold text-primary-600">Bihotel</h1>
           </div>
           <div className="flex items-center gap-4">
-            <p className="hidden md:block text-sm text-gray-600">г. Бишкек, Кыргызстан</p>
+            <p className="hidden md:block text-sm text-gray-600">
+              г. Бишкек, Кыргызстан
+            </p>
             <div className="flex items-center gap-2 text-sm font-medium text-primary-600">
               <Icon name="Phone" size={18} />
               <span className="hidden md:inline">+996 </span>

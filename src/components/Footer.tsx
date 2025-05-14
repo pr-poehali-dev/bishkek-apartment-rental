@@ -1,6 +1,5 @@
-
-import React from 'react';
-import Icon from '@/components/ui/icon';
+import React from "react";
+import Icon from "@/components/ui/icon";
 
 const Footer: React.FC = () => {
   return (
@@ -10,27 +9,40 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Icon name="Home" size={24} className="text-primary-600" />
-              <h2 className="text-lg font-bold text-primary-600">БишкекАренда</h2>
+              <h2 className="text-lg font-bold text-primary-600">Bihotel</h2>
             </div>
             <p className="text-gray-600 mb-4">
-              Удобный сервис для поиска и бронирования квартир посуточно в Бишкеке.
+              Удобный сервис для поиска и бронирования квартир посуточно в
+              Бишкеке.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-500 hover:text-primary-600 transition-colors">
+              <a
+                href="#"
+                className="text-gray-500 hover:text-primary-600 transition-colors"
+              >
                 <Icon name="Facebook" size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-primary-600 transition-colors">
+              <a
+                href="#"
+                className="text-gray-500 hover:text-primary-600 transition-colors"
+              >
                 <Icon name="Instagram" size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-primary-600 transition-colors">
+              <a
+                href="#"
+                className="text-gray-500 hover:text-primary-600 transition-colors"
+              >
                 <Icon name="Twitter" size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-primary-600 transition-colors">
+              <a
+                href="#"
+                className="text-gray-500 hover:text-primary-600 transition-colors"
+              >
                 <Icon name="Telegram" size={20} />
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="font-bold mb-4 text-gray-800">Контакты</h3>
             <ul className="space-y-2 text-gray-600">
@@ -44,7 +56,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex gap-2 items-center">
                 <Icon name="Mail" size={16} className="text-primary-600" />
-                info@bishkek-arenda.kg
+                info@bihotel.kg
               </li>
               <li className="flex gap-2 items-center">
                 <Icon name="Clock" size={16} className="text-primary-600" />
@@ -52,28 +64,48 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-bold mb-4 text-gray-800">Информация</h3>
             <ul className="space-y-2 text-gray-600">
               <li>
-                <a href="#" className="hover:text-primary-600 transition-colors">О компании</a>
+                <a
+                  href="#"
+                  className="hover:text-primary-600 transition-colors"
+                >
+                  О компании
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary-600 transition-colors">Правила бронирования</a>
+                <a
+                  href="#"
+                  className="hover:text-primary-600 transition-colors"
+                >
+                  Правила бронирования
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary-600 transition-colors">Условия аренды</a>
+                <a
+                  href="#"
+                  className="hover:text-primary-600 transition-colors"
+                >
+                  Условия аренды
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary-600 transition-colors">Часто задаваемые вопросы</a>
+                <a
+                  href="#"
+                  className="hover:text-primary-600 transition-colors"
+                >
+                  Часто задаваемые вопросы
+                </a>
               </li>
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t mt-8 pt-6 text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} БишкекАренда. Все права защищены.</p>
+          <p>© {new Date().getFullYear()} Bihotel. Все права защищены.</p>
         </div>
       </div>
     </footer>
